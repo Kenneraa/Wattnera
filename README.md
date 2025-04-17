@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="wattnera-banner.png" alt="Wattnera Logo" width="600"/>
+</p>
+
 # Wattnera – Smart Power Monitoring System
 
 **Wattnera** is a smart IoT-based power monitoring system built using an **ESP32 microcontroller** and an **ACS712 current sensor**. It measures electrical current in real time and outputs data for visualization, diagnostics, or potential automation. This project was designed to explore embedded systems, energy awareness, and DIY IoT device development.
