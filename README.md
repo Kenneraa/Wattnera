@@ -4,16 +4,30 @@
 
 # Wattnera – Smart Power Monitoring System
 
-**Wattnera** is a smart IoT-based power monitoring system built using an **ESP32 microcontroller** and an **ACS712 current sensor**. It measures electrical current in real time and outputs data for visualization, diagnostics, or potential automation. This project was designed to explore embedded systems, energy awareness, and DIY IoT device development.
-
-Built and managed entirely by me as a solo project using Trello, GitHub, and hands-on electronics — part of my journey toward working in companies like Tesla, Nvidia, and Intel.
+**Wattnera** is a real-time power monitoring system built using an **ESP32 microcontroller** and an **ACS712 current sensor**. It measures electrical current, calculates power usage, tracks energy consumption and outputs data via Serial Monitor., diagnostics. This project was designed to explore embedded systems and DIY IoT device development. Future upgrades include OLED display integartion and smart load control.
 
 ---
 
+#Project Versions
+
+### Version 1 - Sensor Test
+- Basic Current Sensing with ACS712
+- Real-time current + voltage output to Serial Monitor
+
+### Version 2 - Power _ Energy Tracking
+- Calculates power using assumed voltge
+- Accumulates energy in Wh overtime
+- Outputs displayed in Serial Monitor
+
+> Next version: OLED screen display + optimal Wi-Fi logging
+
+
+---
 ## Features
 - Real-time current sensing with ACS712 sensor
 - Microcontroller-based system (ESP32)
 - Serial Monitor output for live readings
+- Power and energy tracking
 - Optional Wi-Fi integration to log data remotely (Google Sheets or dashboard)
 - Compact final version soldered on perfboard
 - Managed with Trello & documented step-by-step
