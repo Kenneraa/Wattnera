@@ -34,17 +34,51 @@
 
 ---
 
-## Circuit Diagram
-*Coming soon – includes ESP32 + ACS712 wiring diagram*
-
----
-
 ## Components
 - ESP32 Dev Board (Micro USB)
 - ACS712 Current Sensor (5A or 30A)
 - Breadboard + Jumper Wires
 - USB Cable
 - (Optional) Solderable Perfboard for final version
+
+---
+
+## How it Works
+Wattnera uses an ACS712 current sensor and an ESP32 to monitor real-time current, estimate power, and track energy usage over time. Here’s a simplified breakdown of how it functions:
+
+The ACS712 measures the current flowing through a connected load and outputs an analog voltage proportional to the current.
+
+The ESP32 reads the sensor’s analog output using its ADC (Analog-to-Digital Converter).
+
+The output is then:
+
+Converted to current (in Amps)
+
+Multiplied by an assumed voltage (e.g., 5V) to estimate power (Watts)
+
+Integrated over time to estimate energy consumed (Watt-hours)
+
+Results are displayed in the Arduino Serial Monitor every second
+
+---
+
+## Challenges faced and lessond learned
+During development, I faced several real-world engineering challenges that helped me grow technically:
+
+Serial Port Not Detected:
+My ESP32 wasn't detected in Arduino due to a missing COM port. I resolved this by installing the CP210x USB to UART Bridge driver from Silicon Labs.
+
+Upload Issues / RTS Pin Error:
+The code wouldn’t upload until I pressed and held the BOOT button during upload. This manual reset resolved the “Hard resetting via RTS pin” message.
+
+Fluctuating Readings:
+The sensor output was unstable. I added a 100nF capacitor between the OUT and GND pins of the ACS712, which significantly improved the signal stability.
+
+Estimated Voltage Use:
+Because the ACS712 only reads current, I assumed a constant 5V supply to estimate power. This is a limitation for projects needing accurate voltage variation tracking.
+
+ESP32 Pin Access Issue:
+The ESP32 board was wider than the breadboard. I had to adjust its placement so that jumper wires could still reach the required pins, especially 3.3V, GND, and VP (GPIO36).
 
 ---
 
