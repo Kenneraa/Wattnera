@@ -46,8 +46,8 @@
 ## Project Images
 
 ![Wattnera Circuit](images/Wattnera_circuit2.jpg)
-![Wattnera Circuit](images/Wattnera_circuit3.jpg)
-![Wattnera Circuit](images/Wattnera_v2_circuit.jpg)
+![Wattnera Circuit](images/Waatnera_circuit3.jpg)
+![Wattnera Circuit](images/Wattnera_circuit.jpg)
 ![Wattnera V1 Output](images/Wattnera_v1_output.jpg)
 ![Wattnera V2 Output](images/Wattnera_v2-output.jpg)
 
