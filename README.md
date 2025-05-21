@@ -43,7 +43,25 @@
 
 ---
 
+## Project Images
+
+![Wattnera Circuit](images/Wattnera_circuit2.jpg)
+![Wattnera Circuit](images/Wattnera_circuit3.jpg)
+![Wattnera Circuit](images/Wattnera_v2_circuit.jpg)
+![Wattnera V1 Output](images/Wattnera_v1_output.jpg)
+![Wattnera V2 Output](images/Wattnera_v2-output.jpg)
+
+---
+
+## Live Demo Recordings
+
+- [Wattnera v1 live output](https://drive.google.com/file/d/1twS5vsQ2nD6hKfE68O8bmMtsV8rj7o_a/view?usp=sharing)
+- [Wattnera v2 Power and Energy Tracking Demo](https://drive.google.com/file/d/1IC7PGGKYFs9BFWkgxjqUBHS1xizZjeJ5/view?usp=sharing)
+
+---
+
 ## How it Works
+
 Wattnera uses an ACS712 current sensor and an ESP32 to monitor real-time current, estimate power, and track energy usage over time. Here’s a simplified breakdown of how it functions:
 
 The ACS712 measures the current flowing through a connected load and outputs an analog voltage proportional to the current.
