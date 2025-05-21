@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="wattnera-banner.png" alt="Wattnera Logo" width="600"/>
+  <img src="Wattnera.jpg" alt="Wattnera Logo" width="600"/>
 </p>
 
 # Wattnera – Smart Power Monitoring System
