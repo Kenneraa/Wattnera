@@ -83,4 +83,4 @@ I wanted to build something tangible that blends **electronics**, **code**, and 
 
 ---
 
-*Created with passion — wire by wire.*
+*Created with passion*
