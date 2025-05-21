@@ -107,12 +107,6 @@ Current: 0.05 A
 
 ---
 
-## Live Demo *(Coming Soon)*
-- Screenshot of live data output
-- Optional video demo or dashboard link
-
----
-
 ## Why I Built This
 I wanted to build something tangible that blends **electronics**, **code**, and **project management**. Wattnera represents my first complete personal IoT system — one I scoped, tracked, built, and documented from scratch. It reflects my growth in embedded systems and technical planning.
 
@@ -135,4 +129,3 @@ I wanted to build something tangible that blends **electronics**, **code**, and 
 
 ---
 
-*Created with passion*
